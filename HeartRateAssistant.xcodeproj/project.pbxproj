@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3A780325AF5FAA0051576A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A780225AF5FAA0051576A /* GoogleService-Info.plist */; };
+		1F3A784C25AF69D60051576A /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A784925AF69D60051576A /* DotCALayer.swift */; };
+		1F3A784D25AF69D60051576A /* CurveAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A784A25AF69D60051576A /* CurveAlgorithm.swift */; };
+		1F3A784E25AF69D60051576A /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A784B25AF69D60051576A /* LineChart.swift */; };
+		1F3A788925AF8F670051576A /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A788825AF8F670051576A /* InputVC.swift */; };
+		1F3A78AB25AF9D2A0051576A /* recordingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A78A925AF9D2A0051576A /* recordingCell.swift */; };
+		1F3A78AC25AF9D2A0051576A /* recordingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A78AA25AF9D2A0051576A /* recordingCell.xib */; };
+		1F49B52F25B032BF00989D98 /* UIImagePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49B52E25B032BF00989D98 /* UIImagePlus.swift */; };
+		1FD7018B25B067BD00D88020 /* UIViewControllerPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7018A25B067BD00D88020 /* UIViewControllerPlus.swift */; };
+		296B93F5217282660006D758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296B93F4217282660006D758 /* AppDelegate.swift */; };
+		296B93FC217282660006D758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296B93FB217282660006D758 /* Assets.xcassets */; };
+		296B941E217282D00006D758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296B9415217282CF0006D758 /* LaunchScreen.storyboard */; };
+		296B941F217282D00006D758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296B9417217282CF0006D758 /* Main.storyboard */; };
+		296B9434217283950006D758 /* HeartRateKitAlgorithm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 296B9429217283950006D758 /* HeartRateKitAlgorithm.mm */; };
+		296B9435217283950006D758 /* HeartRateKitResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 296B942B217283950006D758 /* HeartRateKitResult.m */; };
+		296B9436217283950006D758 /* UIView+HeartRateKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 296B942D217283950006D758 /* UIView+HeartRateKit.m */; };
+		296B9437217283950006D758 /* HRKButterworth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 296B942E217283950006D758 /* HRKButterworth.cpp */; };
+		296B9438217283950006D758 /* HeartRateKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296B942F217283950006D758 /* HeartRateKitController.m */; };
+		296B9439217283950006D758 /* UIImage+ImageAverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 296B9430217283950006D758 /* UIImage+ImageAverageColor.m */; };
+		2DE09A93265520F5672DFFC2 /* Pods_HeartRateAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149656BAB47FF84AEADC032 /* Pods_HeartRateAssistant.framework */; };
+		3D0E853E2478367800C4756A /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E853D2478367800C4756A /* SplashVC.swift */; };
+		3D0E854124783B1100C4756A /* DiaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E854024783B1100C4756A /* DiaryVC.swift */; };
+		3D0E85462478647000C4756A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E85442478647000C4756A /* TableViewCell.swift */; };
+		3D0E85472478647000C4756A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0E85452478647000C4756A /* TableViewCell.xib */; };
+		3D0E854A24787C5700C4756A /* HeartRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E854924787C5700C4756A /* HeartRates.swift */; };
+		3D0E854C2478967600C4756A /* WaitingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E854B2478967600C4756A /* WaitingVC.swift */; };
+		3D0E854E247899D400C4756A /* SaveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E854D247899D400C4756A /* SaveVC.swift */; };
+		3D0E85532478A89300C4756A /* analyticsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0E85522478A89300C4756A /* analyticsVC.swift */; };
+		3DD159D5247AAFD7003E980E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD159D4247AAFD7003E980E /* UIViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F3A780225AF5FAA0051576A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F3A784925AF69D60051576A /* DotCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
+		1F3A784A25AF69D60051576A /* CurveAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveAlgorithm.swift; sourceTree = "<group>"; };
+		1F3A784B25AF69D60051576A /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		1F3A788825AF8F670051576A /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
+		1F3A78A925AF9D2A0051576A /* recordingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordingCell.swift; sourceTree = "<group>"; };
+		1F3A78AA25AF9D2A0051576A /* recordingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recordingCell.xib; sourceTree = "<group>"; };
+		1F49B52E25B032BF00989D98 /* UIImagePlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePlus.swift; sourceTree = "<group>"; };
+		1FD7018A25B067BD00D88020 /* UIViewControllerPlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerPlus.swift; sourceTree = "<group>"; };
+		296B93F1217282660006D758 /* HeartRateAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		296B93F4217282660006D758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		296B93FB217282660006D758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		296B9400217282660006D758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296B9416217282CF0006D758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		296B9418217282CF0006D758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		296B9422217283550006D758 /* MyHealthApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyHealthApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		296B9425217283950006D758 /* UIView+HeartRateKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HeartRateKit.h"; sourceTree = "<group>"; };
+		296B9426217283950006D758 /* HeartRateKitResult+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HeartRateKitResult+Protected.h"; sourceTree = "<group>"; };
+		296B9427217283950006D758 /* HeartRateKitAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKitAlgorithm.h; sourceTree = "<group>"; };
+		296B9428217283950006D758 /* HeartRateKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKitController.h; sourceTree = "<group>"; };
+		296B9429217283950006D758 /* HeartRateKitAlgorithm.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HeartRateKitAlgorithm.mm; sourceTree = "<group>"; };
+		296B942A217283950006D758 /* HRKButterworth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRKButterworth.h; sourceTree = "<group>"; };
+		296B942B217283950006D758 /* HeartRateKitResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateKitResult.m; sourceTree = "<group>"; };
+		296B942C217283950006D758 /* UIImage+ImageAverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageAverageColor.h"; sourceTree = "<group>"; };
+		296B942D217283950006D758 /* UIView+HeartRateKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HeartRateKit.m"; sourceTree = "<group>"; };
+		296B942E217283950006D758 /* HRKButterworth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HRKButterworth.cpp; sourceTree = "<group>"; };
+		296B942F217283950006D758 /* HeartRateKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateKitController.m; sourceTree = "<group>"; };
+		296B9430217283950006D758 /* UIImage+ImageAverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageAverageColor.m"; sourceTree = "<group>"; };
+		296B9432217283950006D758 /* HeartRateKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKit.h; sourceTree = "<group>"; };
+		296B9433217283950006D758 /* HeartRateKitResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateKitResult.h; sourceTree = "<group>"; };
+		3D0E853D2478367800C4756A /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		3D0E854024783B1100C4756A /* DiaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryVC.swift; sourceTree = "<group>"; };
+		3D0E85442478647000C4756A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3D0E85452478647000C4756A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		3D0E854924787C5700C4756A /* HeartRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRates.swift; sourceTree = "<group>"; };
+		3D0E854B2478967600C4756A /* WaitingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingVC.swift; sourceTree = "<group>"; };
+		3D0E854D247899D400C4756A /* SaveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveVC.swift; sourceTree = "<group>"; };
+		3D0E85522478A89300C4756A /* analyticsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = analyticsVC.swift; sourceTree = "<group>"; };
+		3DD159D4247AAFD7003E980E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8149656BAB47FF84AEADC032 /* Pods_HeartRateAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartRateAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950F0B8274A811514A630DB1 /* Pods-HeartRateAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateAssistant.debug.xcconfig"; path = "Target Support Files/Pods-HeartRateAssistant/Pods-HeartRateAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+		FB26CDB2DF46A3133341DBC2 /* Pods-HeartRateAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateAssistant.release.xcconfig"; path = "Target Support Files/Pods-HeartRateAssistant/Pods-HeartRateAssistant.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		296B93EE217282660006D758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE09A93265520F5672DFFC2 /* Pods_HeartRateAssistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3A785125AF69E80051576A /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				1F3A784A25AF69D60051576A /* CurveAlgorithm.swift */,
+				1F3A784925AF69D60051576A /* DotCALayer.swift */,
+				1F3A784B25AF69D60051576A /* LineChart.swift */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		1F3A78A825AF9CEF0051576A /* RecordingCell */ = {
+			isa = PBXGroup;
+			children = (
+				1F3A78A925AF9D2A0051576A /* recordingCell.swift */,
+				1F3A78AA25AF9D2A0051576A /* recordingCell.xib */,
+			);
+			path = RecordingCell;
+			sourceTree = "<group>";
+		};
+		296B93E8217282660006D758 = {
+			isa = PBXGroup;
+			children = (
+				296B93F3217282660006D758 /* HeartRateAssistant */,
+				296B93F2217282660006D758 /* Products */,
+				632DDA3CA753086442BB28F9 /* Pods */,
+				6A416E7F526EB400BC7AB7FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		296B93F2217282660006D758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				296B93F1217282660006D758 /* HeartRateAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		296B93F3217282660006D758 /* HeartRateAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E853F2478382000C4756A /* AppDelegates */,
+				296B940A217282B20006D758 /* Model */,
+				296B9411217282CF0006D758 /* Controllers */,
+				3DD159D6247AC74A003E980E /* Utils */,
+				296B9414217282CF0006D758 /* Storyboard */,
+				296B9422217283550006D758 /* MyHealthApp-Bridging-Header.h */,
+				296B93FB217282660006D758 /* Assets.xcassets */,
+				1F3A780225AF5FAA0051576A /* GoogleService-Info.plist */,
+				296B9400217282660006D758 /* Info.plist */,
+			);
+			path = HeartRateAssistant;
+			sourceTree = "<group>";
+		};
+		296B940A217282B20006D758 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E854924787C5700C4756A /* HeartRates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		296B9411217282CF0006D758 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E853D2478367800C4756A /* SplashVC.swift */,
+				3D0E854024783B1100C4756A /* DiaryVC.swift */,
+				1F3A788825AF8F670051576A /* InputVC.swift */,
+				3D0E854D247899D400C4756A /* SaveVC.swift */,
+				3D0E85522478A89300C4756A /* analyticsVC.swift */,
+				3D0E854B2478967600C4756A /* WaitingVC.swift */,
+				1F3A78A825AF9CEF0051576A /* RecordingCell */,
+				3D0E85482478647900C4756A /* RecordCell */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		296B9414217282CF0006D758 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				296B9415217282CF0006D758 /* LaunchScreen.storyboard */,
+				296B9417217282CF0006D758 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		296B9423217283950006D758 /* HeartRateKit */ = {
+			isa = PBXGroup;
+			children = (
+				296B9424217283950006D758 /* Internal */,
+				296B9431217283950006D758 /* Public */,
+			);
+			path = HeartRateKit;
+			sourceTree = "<group>";
+		};
+		296B9424217283950006D758 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				296B9425217283950006D758 /* UIView+HeartRateKit.h */,
+				296B9426217283950006D758 /* HeartRateKitResult+Protected.h */,
+				296B9427217283950006D758 /* HeartRateKitAlgorithm.h */,
+				296B9428217283950006D758 /* HeartRateKitController.h */,
+				296B9429217283950006D758 /* HeartRateKitAlgorithm.mm */,
+				296B942A217283950006D758 /* HRKButterworth.h */,
+				296B942B217283950006D758 /* HeartRateKitResult.m */,
+				296B942C217283950006D758 /* UIImage+ImageAverageColor.h */,
+				296B942D217283950006D758 /* UIView+HeartRateKit.m */,
+				296B942E217283950006D758 /* HRKButterworth.cpp */,
+				296B942F217283950006D758 /* HeartRateKitController.m */,
+				296B9430217283950006D758 /* UIImage+ImageAverageColor.m */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		296B9431217283950006D758 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				296B9432217283950006D758 /* HeartRateKit.h */,
+				296B9433217283950006D758 /* HeartRateKitResult.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		3D0E853F2478382000C4756A /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				296B93F4217282660006D758 /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		3D0E85482478647900C4756A /* RecordCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D0E85442478647000C4756A /* TableViewCell.swift */,
+				3D0E85452478647000C4756A /* TableViewCell.xib */,
+			);
+			path = RecordCell;
+			sourceTree = "<group>";
+		};
+		3DD159D6247AC74A003E980E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3DD159D4247AAFD7003E980E /* UIViewExtension.swift */,
+				1F49B52E25B032BF00989D98 /* UIImagePlus.swift */,
+				1FD7018A25B067BD00D88020 /* UIViewControllerPlus.swift */,
+				1F3A785125AF69E80051576A /* LineChart */,
+				296B9423217283950006D758 /* HeartRateKit */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		632DDA3CA753086442BB28F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				950F0B8274A811514A630DB1 /* Pods-HeartRateAssistant.debug.xcconfig */,
+				FB26CDB2DF46A3133341DBC2 /* Pods-HeartRateAssistant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A416E7F526EB400BC7AB7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8149656BAB47FF84AEADC032 /* Pods_HeartRateAssistant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		296B93F0217282660006D758 /* HeartRateAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 296B9403217282660006D758 /* Build configuration list for PBXNativeTarget "HeartRateAssistant" */;
+			buildPhases = (
+				01FFCEDFF29D3800A1251206 /* [CP] Check Pods Manifest.lock */,
+				296B93ED217282660006D758 /* Sources */,
+				296B93EE217282660006D758 /* Frameworks */,
+				296B93EF217282660006D758 /* Resources */,
+				960B9D9183EDCFDB063F7AAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartRateAssistant;
+			productName = MyHealthApp;
+			productReference = 296B93F1217282660006D758 /* HeartRateAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		296B93E9217282660006D758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iOS;
+				TargetAttributes = {
+					296B93F0217282660006D758 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 296B93EC217282660006D758 /* Build configuration list for PBXProject "HeartRateAssistant" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 296B93E8217282660006D758;
+			productRefGroup = 296B93F2217282660006D758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				296B93F0217282660006D758 /* HeartRateAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		296B93EF217282660006D758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296B941F217282D00006D758 /* Main.storyboard in Resources */,
+				3D0E85472478647000C4756A /* TableViewCell.xib in Resources */,
+				1F3A780325AF5FAA0051576A /* GoogleService-Info.plist in Resources */,
+				296B93FC217282660006D758 /* Assets.xcassets in Resources */,
+				296B941E217282D00006D758 /* LaunchScreen.storyboard in Resources */,
+				1F3A78AC25AF9D2A0051576A /* recordingCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FFCEDFF29D3800A1251206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartRateAssistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960B9D9183EDCFDB063F7AAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeartRateAssistant/Pods-HeartRateAssistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeartRateAssistant/Pods-HeartRateAssistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeartRateAssistant/Pods-HeartRateAssistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		296B93ED217282660006D758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD7018B25B067BD00D88020 /* UIViewControllerPlus.swift in Sources */,
+				296B9434217283950006D758 /* HeartRateKitAlgorithm.mm in Sources */,
+				1F49B52F25B032BF00989D98 /* UIImagePlus.swift in Sources */,
+				1F3A784C25AF69D60051576A /* DotCALayer.swift in Sources */,
+				296B93F5217282660006D758 /* AppDelegate.swift in Sources */,
+				1F3A784E25AF69D60051576A /* LineChart.swift in Sources */,
+				1F3A788925AF8F670051576A /* InputVC.swift in Sources */,
+				296B9435217283950006D758 /* HeartRateKitResult.m in Sources */,
+				1F3A78AB25AF9D2A0051576A /* recordingCell.swift in Sources */,
+				296B9436217283950006D758 /* UIView+HeartRateKit.m in Sources */,
+				296B9437217283950006D758 /* HRKButterworth.cpp in Sources */,
+				3D0E854C2478967600C4756A /* WaitingVC.swift in Sources */,
+				3DD159D5247AAFD7003E980E /* UIViewExtension.swift in Sources */,
+				3D0E85532478A89300C4756A /* analyticsVC.swift in Sources */,
+				3D0E854124783B1100C4756A /* DiaryVC.swift in Sources */,
+				3D0E853E2478367800C4756A /* SplashVC.swift in Sources */,
+				1F3A784D25AF69D60051576A /* CurveAlgorithm.swift in Sources */,
+				3D0E85462478647000C4756A /* TableViewCell.swift in Sources */,
+				3D0E854E247899D400C4756A /* SaveVC.swift in Sources */,
+				296B9438217283950006D758 /* HeartRateKitController.m in Sources */,
+				296B9439217283950006D758 /* UIImage+ImageAverageColor.m in Sources */,
+				3D0E854A24787C5700C4756A /* HeartRates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		296B9415217282CF0006D758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				296B9416217282CF0006D758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		296B9417217282CF0006D758 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				296B9418217282CF0006D758 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		296B9401217282660006D758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		296B9402217282660006D758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		296B9404217282660006D758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950F0B8274A811514A630DB1 /* Pods-HeartRateAssistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XSR6288S7E;
+				INFOPLIST_FILE = HeartRateAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.HeartRateAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartRateAssistant/MyHealthApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		296B9405217282660006D758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB26CDB2DF46A3133341DBC2 /* Pods-HeartRateAssistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XSR6288S7E;
+				INFOPLIST_FILE = HeartRateAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.HeartRateAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HeartRateAssistant/MyHealthApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		296B93EC217282660006D758 /* Build configuration list for PBXProject "HeartRateAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296B9401217282660006D758 /* Debug */,
+				296B9402217282660006D758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		296B9403217282660006D758 /* Build configuration list for PBXNativeTarget "HeartRateAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				296B9404217282660006D758 /* Debug */,
+				296B9405217282660006D758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 296B93E9217282660006D758 /* Project object */;
+}
